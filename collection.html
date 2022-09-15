@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Fair</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="getData();filterProduct('All')">
+    <div class="navBar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="collection.html">COLLECTION</a></li>
+        <li><a href="nft.html">NFT</a></li>
+
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <section id="collection">
+      <h1 class="title">Best of Art: Collector Favourites</h1>
+      <div class="filter">
+        <div class="wrapper">
+          <h3 style="padding: 1rem">Search</h3>
+          <div id="search-container">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search art or artist"
+            />
+            <button id="search">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"
+                />
+                <path
+                  d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <h3 style="padding: 1rem">
+            Filters
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-filter-circle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM3.5 5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zM5 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"
+                /></svg
+            ></span>
+          </h3>
+          <div id="buttons">
+            <button class="button-value" onclick="filterProduct('All')">
+              All
+            </button>
+            <button
+              class="button-value"
+              onclick="filterProduct('Contemporary')"
+            >
+              Contemporary
+            </button>
+            <button class="button-value" onclick="filterProduct('Nft')">
+              Nft
+            </button>
+            <button class="button-value" onclick="filterProduct('Old-masters')">
+              Old-masters
+            </button>
+          </div>
+        </div>
+        <div style="columns: 2" id="products"></div>
+      </div>
+    </section>
+    <script src="./src/script.js"></script>
+  </body>
+</html>

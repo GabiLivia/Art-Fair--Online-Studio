@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Fair</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <div class="navBar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="collection.html">COLLECTION</a></li>
+        <li><a href="nft.html">NFT</a></li>
+
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <div id="background">
+      <div class="adam">
+        <img id="imgAdam" src="images/Adam_preview_rev_1.png" />
+      </div>
+      <div class="card">
+        <div id="card">
+          <h6>
+            <span>shop for</span>
+            ART YOU'LL LOVE
+          </h6>
+          <a href="collection.html"> <button class="btn">Shop now</button></a>
+        </div>
+      </div>
+      <div class="god">
+        <img id="imgGod" src="images/god_preview_rev_1.png" />
+      </div>
+    </div>
+
+    <section id="art">
+      <h3>Discover Art From the World's Leading Online Gallery</h3>
+      <div class="categories">
+        <div class="card-categories">
+          <img src="./images/3.jpg" alt="art" />
+          <h4>12 Years of Emerging Art</h4>
+          <button class="btn">Shop bestselllers</button>
+        </div>
+        <div class="card-categories">
+          <img src="./images/2.jpg" alt="art" />
+          <h4>Visions of the future: <br />NFT auction</h4>
+          <a href="nft.html"><button class="btn">Learn more</button></a>
+        </div>
+        <div class="card-categories">
+          <img src="./images/1.jpg" alt="art" />
+          <h4>Art Fair</h4>
+          <a href="collection.html"
+            ><button class="btn">Dicover Collection</button></a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="featured">
+      <h1>Featured Collections</h1>
+      <div class="categories">
+        <div class="featured">
+          <img src="./images/4.jpg" alt="art" />
+          <p>
+            <span style="background-color: white; line-height: 2"
+              >2022 Bestseller award - collector favourite</span
+            >
+          </p>
+        </div>
+        <div class="featured">
+          <img src="./images/5.jpg" alt="art" />
+          <p>
+            <span style="background-color: white; line-height: 2"
+              >Make a statement with one-of-a kind abstract.</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="bestof">
+      <div class="top">
+        <h1>Best of 2022</h1>
+        <a href="collection.html"><button>EXPLORE THE COLLECTION</button></a>
+      </div>
+      <div class="categories">
+        <div class="selection-card">
+          <img src="./images/contemporary/Gossip.jpg" alt="" />
+          <h5>Lorem</h5>
+          <h6>Lorem</h6>
+          <h5>$ 1000</h5>
+        </div>
+        <div class="selection-card">
+          <img src="./images/contemporary/Guilty.jpg" alt="" />
+          <h5>Lorem</h5>
+          <h6>Lorem</h6>
+          <h5>$ 1000</h5>
+        </div>
+        <div class="selection-card">
+          <img src="./images/contemporary/Multiverse.jpg" alt="" />
+          <h5>Lorem</h5>
+          <h6>Lorem</h6>
+          <h5>$ 1000</h5>
+        </div>
+        <div class="selection-card">
+          <img src="./images/contemporary/My mind.jpg" alt="" />
+          <h5>Lorem</h5>
+          <h6>Lorem</h6>
+          <h5>$ 1000</h5>
+        </div>
+        <div class="selection-card">
+          <img src="./images/contemporary/Venus.jpg" alt="" />
+          <h5>Lorem</h5>
+          <h6>Lorem</h6>
+          <h5>$ 1000</h5>
+        </div>
+        <div class="selection-card">
+          <img src="./images/contemporary/Spirits.jpg" alt="" />
+          <h5>Lorem</h5>
+          <h6>Lorem</h6>
+          <h5>$ 1000</h5>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      let adam = document.getElementById("imgAdam");
+      let god = document.getElementById("imgGod");
+      let card = document.getElementById("card");
+      let body = document.getElementsByTagName("body");
+
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        adam.style.right = value * 1 + "px";
+        god.style.left = value * 1 + "px";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "1",
+    "image": "./images/contemporary/Beauty.jpg",
+    "title": "Beauty",
+    "artist": "Thomas Saliot",
+    "price": "1.360",
+    "category": "Contemporary"
+  },
+  {
+    "id": "2",
+    "image": "./images/contemporary/Flowers of Wild.jpg",
+    "title": "Flowers of Wild",
+    "artist": "Koen Lybaert",
+    "price": "3,970",
+    "category": "Contemporary"
+  },
+  {
+    "id": "3",
+    "image": "./images/contemporary/Gossip.jpg",
+    "title": "Gossip",
+    "artist": "Claire Desjardins",
+    "price": "2,433",
+    "category": "Contemporary"
+  },
+  {
+    "id": "4",
+    "image": "./images/contemporary/Guilty.jpg",
+    "title": "Guilty",
+    "artist": "Campbell La Pun",
+    "price": "5000",
+    "category": "Contemporary"
+  },
+  {
+    "id": "5",
+    "image": "./images/contemporary/lines of future.jpg",
+    "title": "Lines of Future",
+    "artist": "Janos Huszti",
+    "price": "570",
+    "category": "Contemporary"
+  },
+  {
+    "id": "6",
+    "image": "./images/contemporary/Multiverse.jpg",
+    "title": "Multiverse",
+    "artist": "Niki Hare",
+    "price": "10,124",
+    "category": "Contemporary"
+  },
+  {
+    "id": "7",
+    "image": "./images/contemporary/My mind.jpg",
+    "title": "My Mind",
+    "artist": "Xan Padron",
+    "price": "1,300",
+    "category": "Contemporary"
+  },
+  {
+    "id": "8",
+    "image": "./images/contemporary/rizosphere.jpg",
+    "title": "Rizosphere",
+    "artist": "Robert von bangert",
+    "price": "2,560",
+    "category": "Contemporary"
+  },
+  {
+    "id": "9",
+    "image": "./images/contemporary/Spirits.jpg",
+    "title": "Spirits",
+    "artist": "Dean West",
+    "price": "7,400",
+    "category": "Contemporary"
+  },
+  {
+    "id": "10",
+    "image": "./images/contemporary/Venus.jpg",
+    "title": "Venus",
+    "artist": "Elizabeth Lennie",
+    "price": "2,400",
+    "category": "Contemporary"
+  },
+  {
+    "id": "11",
+    "image": "./images/nft/nft-abis.jpg",
+    "title": "Abis",
+    "artist": "Rodrigue Semabia",
+    "price": "8,700",
+    "category": "Nft"
+  },
+  {
+    "id": "12",
+    "image": "./images/nft/nft-gelous.jpg",
+    "title": "Gelous",
+    "artist": "Francesca Borgo",
+    "price": "5,000",
+    "category": "Nft"
+  },
+  {
+    "id": "13",
+    "image": "./images/nft/nft-Ladder of success.jpg",
+    "title": "Ladder of success",
+    "artist": "Newel Hunter",
+    "price": "4,550",
+    "category": "Nft"
+  },
+  {
+    "id": "14",
+    "image": "./images/nft/nft-memories.jpg",
+    "title": "Memories",
+    "artist": "Kaoru Shibuta",
+    "price": "900",
+    "category": "Nft"
+  },
+  {
+    "id": "15",
+    "image": "./images/nft/nft-outofspace.jpg",
+    "title": "Out Of Space",
+    "artist": "Ieva Balip",
+    "price": "3,000",
+    "category": "Nft"
+  },
+  {
+    "id": "16",
+    "image": "./images/nft/nft-present.jpg",
+    "title": "Present",
+    "artist": "Luca Brandi",
+    "price": "700",
+    "category": "Nft"
+  },
+  {
+    "id": "17",
+    "image": "./images/nft/nft-sea.jpg",
+    "title": "Sea",
+    "artist": "Daphne Verheijke",
+    "price": "7,900",
+    "category": "Nft"
+  },
+  {
+    "id": "18",
+    "image": "./images/nft/nft-Sphere.jpg",
+    "title": "Moving to another myth",
+    "artist": "Adrian Sibley",
+    "price": "1,400",
+    "category": "Nft"
+  },
+  {
+    "id": "19",
+    "image": "./images/nft/nft-war.jpg",
+    "title": "War",
+    "artist": "Leguizamo",
+    "price": "3,400",
+    "category": "Nft"
+  },
+  {
+    "id": "20",
+    "image": "./images/nft/nft-Zeus.jpg",
+    "title": "Zeus",
+    "artist": "Vicky Barranguet",
+    "price": "12,300",
+    "category": "Nft"
+  },
+  {
+    "id": "21",
+    "image": "./images/old masters/A Girl with Flowers on the Grass.jpg",
+    "title": "A girl with Flowers on the Grass",
+    "artist": "Unknown ",
+    "price": "20,200",
+    "category": "Old-masters"
+  },
+  {
+    "id": "22",
+    "image": "./images/old masters/A herefordshire Lane.jpg",
+    "title": "A herefordshire Lane",
+    "artist": " David Cox",
+    "price": "45,800",
+    "category": "Old-masters"
+  },
+  {
+    "id": "23",
+    "image": "./images/old masters/Alcazar.jpg",
+    "title": "Alcazar",
+    "artist": "David Roberts ",
+    "price": "24,900",
+    "category": "Old-masters"
+  },
+  {
+    "id": "24",
+    "image": "./images/old masters/An Algerian Garden.jpg",
+    "title": "An Algerian Garden",
+    "artist": " Unknown",
+    "price": "31,300",
+    "category": "Old-masters"
+  },
+  {
+    "id": "25",
+    "image": "./images/old masters/breakfast.jpg",
+    "title": "Breakfast",
+    "artist": "Amalia Lindegren ",
+    "price": "56,100",
+    "category": "Old-masters"
+  },
+  {
+    "id": "26",
+    "image": "./images/old masters/But Men Must Work and Women Must Weep.jpg",
+    "title": "But Men Must Work and Women Must Weep",
+    "artist": "Walter Langley ",
+    "price": "67,000",
+    "category": "Old-masters"
+  },
+  {
+    "id": "27",
+    "image": "./images/old masters/Interior of a Cathedral.jpg",
+    "title": "Interior of a Cathedral",
+    "artist": " Samuel Prout",
+    "price": "45.000",
+    "category": "Old-masters"
+  },
+  {
+    "id": "28",
+    "image": "./images/old masters/Moseley Old Hall.jpg",
+    "title": "Moseley Old Hall",
+    "artist": "Allen Edward Everitt ",
+    "price": "89,100",
+    "category": "Old-masters"
+  },
+  {
+    "id": "29",
+    "image": "./images/old masters/Plyctolophus leadbeateri.jpg",
+    "title": "Plyctolophus leadbeateri",
+    "artist": " James Sayer",
+    "price": "23,000",
+    "category": "Old-masters"
+  },
+  {
+    "id": "30",
+    "image": "./images/old masters/The Empress Josephine and The Fortune Teller.jpg",
+    "title": "he Empress Josephine and The Fortune Teller",
+    "artist": " Sir David Wilkie",
+    "price": "90,000",
+    "category": "Old-masters"
+  },
+  {
+    "id": "31",
+    "image": "./images/old masters/The reading Lesson.jpg",
+    "title": "The reading Lesson",
+    "artist": " John Dawson Watson",
+    "price": "30,000",
+    "category": "Old-masters"
+  },
+  {
+    "id": "32",
+    "image": "./images/old masters/Turkish Utensils.jpg",
+    "title": "Turkish Utensils",
+    "artist": "William James Muller ",
+    "price": "45,000",
+    "category": "Old-masters"
+  },
+  {
+    "id": "33",
+    "image": "./images/old masters/Yellow.jpg",
+    "title": "Yellow",
+    "artist": " Magpie",
+    "price": "23,000",
+    "category": "Old-masters"
+  }
+]

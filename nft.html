@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Fair</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style/styleNFT.css" />
+  </head>
+  <body>
+    <div class="navBar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="collection.html">COLLECTION</a></li>
+        <li><a href="nft.html">NFT</a></li>
+
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <section class="topper" style="background: url(./images/nft/nft-abis.jpg)">
+      <h6>AUCTION & CURATED EXHIBITION</h6>
+      <h1>Visions of the future</h1>
+      <a href="#lower"><button class="btn">VIEW COLLECTION</button></a>
+    </section>
+    <section class="middle">
+      <h3>Our Mission</h3>
+      <p>
+        We aim to help art lovers discover and buy NFTs in a welcoming,
+        transparent, and curated environment. We serve a vibrant community of
+        collectors from around the globe through our fine art expertise,
+        best-in-class offerings, and relationships with over 100K emerging
+        artists worldwide. Since our founding in the early aughts, we have
+        continually harnessed innovative technology to democratize the art
+        market; our entry into NFTs is a natural evolution of this mission.
+        Through curated collections, exclusive art drops, and other creative
+        projects, we hope to provide a dynamic, integrative NFT experience at
+        our online gallery for artists and collectors alike.
+      </p>
+    </section>
+    <section id="lower" class="lower">
+      <div class="swiper mySwiper">
+        <h1>
+          Swipe through
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-heart-arrow"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.707 9h4.364c-.536 1.573 2.028 3.806 4.929-.5-2.9-4.306-5.465-2.073-4.929-.5H6.707L4.854 6.146a.5.5 0 1 0-.708.708L5.293 8h-.586L2.854 6.146a.5.5 0 1 0-.708.708L3.293 8h-.586L.854 6.146a.5.5 0 1 0-.708.708L1.793 8.5.146 10.146a.5.5 0 0 0 .708.708L2.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L4.707 9h.586l-1.147 1.146a.5.5 0 0 0 .708.708L6.707 9Z"
+              /></svg
+          ></span>
+        </h1>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/nft/nft-gelous.jpg" alt="nft" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/nft/nft-Ladder of success.jpg" alt="nft" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/nft/nft-memories.jpg" alt="nft" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/nft/nft-outofspace.jpg" alt="nft" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/nft/nft-sea.jpg" alt="nft" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/nft/nft-Sphere.jpg" alt="nft" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      let swiper = new Swiper(".mySwiper", {
+        pagination: ".swiper-pagination",
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        sliderPerView: "auto",
+        coverflow: {
+          rotate: 60,
+          strech: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

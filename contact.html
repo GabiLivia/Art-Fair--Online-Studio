@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Fair</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navBar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="collection.html">COLLECTION</a></li>
+        <li><a href="nft.html">NFT</a></li>
+
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <section id="form" style="background-image: url(./images/1.jpg)">
+      <form>
+        <div class="form-info">
+          <label>Email</label>
+          <input type="email" id="inputEmail" />
+        </div>
+
+        <div class="form-info">
+          <label>Contact reason</label>
+          <select id="inputOption">
+            <option selected>-</option>
+            <option>Orders</option>
+            <option>Tehnical</option>
+            <option>Artwork inquiry</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-info">
+          <label>Name</label>
+          <input type="text" id="inputPassword" />
+        </div>
+        <div class="form-info">
+          <label> Please provide details of your request below</label>
+          <textarea
+            type="text"
+            id="inputRequestDetail"
+            placeholder=""
+          ></textarea>
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
